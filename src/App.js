@@ -1,24 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import NoMatch from './components/NoMatch';
+import Home from './Home';
+import Resume from './Resume';
+import Contact from './Contact';
+import NoMatch from './NoMatch';
+import Layout from './components/Layout';
+import NavBar from './components/NavBar';
 
 
-function App() {
-  return (
-    <>
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route  path="/resume" component={Resume} />
-        <Route  path="/contact" component={Contact} />
-        <Route component={NoMatch} /> 
-      </Switch>
-    </Router>
-    </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Layout>
+          <Router>
+            <NavBar />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/resume" component={Resume} />
+              <Route path="/contact" component={Contact} />
+              <Route component={NoMatch} />
+            </Switch>
+          </Router>
+        </Layout>
+      </>
+    );
+  }
 }
 
 export default App;
