@@ -5,12 +5,11 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
-    background-color: rgb(201, 76, 76);
-    border-radius: 3px;
+    background-color: #000;
   }
 
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: #D83F87;
+    color: purple;
 
     &:hover {
       color: white;
@@ -21,23 +20,23 @@ const Styles = styled.div`
 const NavBar = () => {
   return ( 
     <Styles>
-    <Navbar expand="lg">
+    <Navbar expand="lg" variant="dark">
       <Navbar.Brand href="/"></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav as="span" className="ml-auto">
           <Nav.Item>
-            <Nav.Link>
+            <Nav.Link as="span">
               <Link to="/">Home</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
+            <Nav.Link as="span">
               <Link to="/resume">Resume</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
+            <Nav.Link as="span">
               <Link to="/contact">Contact</Link>
             </Nav.Link>
           </Nav.Item>
