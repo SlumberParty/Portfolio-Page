@@ -7,9 +7,11 @@ const Styles = styled.div`
   .jumbo {
     background-color: #222;
     background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
     color: #efefef;
-    height: 200px;
+    height: 150px;
     position: relative;
     z-index: -2;
   }
@@ -37,7 +39,9 @@ const Jumbotron = () => {
             <span className="spotlight"></span>
           </div>
           <h2>Fullstack Software Developer</h2>
-          <p>I live, I die, I talk to r0b0ts</p>
+          <p>Hello! She/Her. Compulsive maker. Will talk Javascript, 
+            LEDs, lasercutting, open source, and feelings all day. 
+            Learning Python and Node Red. </p>
         </Container>
       </Jumbo>
     </Styles>

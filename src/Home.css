@@ -1,0 +1,12 @@
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  height: 17em;
+  width: 17em;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 55, 155);
+}
+
