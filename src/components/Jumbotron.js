@@ -11,7 +11,7 @@ const Styles = styled.div`
     padding-bottom: 0px;
     text-align: center;
     color: #efefef;
-    height: 150px;
+    height: 175px;
     position: relative;
     z-index: -2;
   }
@@ -34,19 +34,19 @@ const Jumbotron = () => {
         <div className="overlay"></div>
         <Container>
           <div className="neon">
-            <span className="text">Claire Danielle Cassidy</span>
+            <span className="name">Claire Danielle Cassidy</span>
             <span className="gradient"></span>
             <span className="spotlight"></span>
           </div>
-          <h2>Fullstack Software Developer</h2>
-          <p>Hello! She/Her. Compulsive maker. Will talk Javascript, 
+          <h2>Full stack software developer</h2>
+          <p className="intro">Hello! She/Her. Compulsive maker. Will talk javascript, 
             LEDs, lasercutting, open source, and feelings all day. 
-            Learning Python and Node Red. </p>
-        </Container>
+            Learning python and node red. </p>
+          </Container>
       </Jumbo>
     </Styles>
 
-   );
-  }
+);
+}
    
   export default Jumbotron;
