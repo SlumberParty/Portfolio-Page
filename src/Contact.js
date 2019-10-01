@@ -4,22 +4,22 @@ import './Contact.css'
 const Contact = () => {
   return (
     <>
-    <div className="icons">
-          <p>Little magic links:</p>
+    <div className="contact-icons">
+          <p className="contact-section">Clicky clicky:</p>
           <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">
-            <img className="contact-link" src="../resources/gmail.png" alt="gmail icon"/>
+            <img className="contact-icon" src="../resources/gmail.png" alt="gmail icon"/>
           </a>
           <a href="https://github.com/SlumberParty">
-            <img className="contact-link" src="../resources/github.png" alt="github icon"/>
+            <img className="contact-icon" src="../resources/github.png" alt="github icon"/>
           </a>
           <a href="https://www.linkedin.com/in/clairedaniellecassidy/">
-            <img className="contact-link" src="../resources/linkedin.png" alt="linkedin icon"/>
+            <img className="contact-icon" src="../resources/linkedin.png" alt="linkedin icon"/>
           </a>
           <a href="http://withfeeling.blog/">
-            <img className="contact-link" src="../resources/blog.png" alt="blog icon"/>
+            <img className="contact-icon" src="../resources/blog.png" alt="blog icon"/>
           </a>
           <a href="https://twitter.com/LaserMistress">
-            <img className="contact-link" src="../resources/twitter.png" alt="twitter icon"/>
+            <img className="contact-icon" src="../resources/twitter.png" alt="twitter icon"/>
           </a>
     </div>
     <div className="names">

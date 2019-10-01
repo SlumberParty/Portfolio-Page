@@ -6,10 +6,12 @@ import styled from 'styled-components';
 const Styles = styled.div`
   .navbar {
     background-color: #000;
+    padding-bottom: 0px;
   }
 
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: white;
+    color: rgb(255, 55, 155);
+
 
     &:hover {
       color: white;
@@ -33,11 +35,6 @@ const NavBar = () => {
           <Nav.Item>
             <Nav.Link as="span">
               <Link to="/resume">Resume</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as="span">
-              <Link to="/contact">Contact</Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>

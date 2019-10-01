@@ -37,8 +37,6 @@ h3 {
 
 .spotlight {
   position: absolute;
-  border-top: 7px solid black;
-  border-bottom: 7px solid black;
   border-left: 35px solid black;
   border-right: 35px solid black;
   top: -100%;

@@ -1,32 +1,38 @@
-.paragraph {
+.home {
   text-align: center;
-  margin-top: 30px;
+  color: white;
+  margin-top: 3em;
+}
+
+.home-sections {
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.home-contact-icon {
+  margin-left: .8em;
+  margin-right: .8em;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 10px;
 }
 
 p {
-  color: white;
+  margin-left: 2.6em;
+  margin-right: 2.6em;
 }
 
-img {
-  margin-left: 30px;
-  margin-right: 30px;
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.project-link {
-  height: 15em;
-  width: 15em;
+.project-icon {
+  height: 10em;
+  width: 10em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   border-radius: 10px;
   border: 1px solid rgb(255, 55, 155);
 }
-
-.resume {
-  height: 65em;
-  width: auto;
-  border-radius: 10px;
-  border: 1px solid rgb(255, 55, 155);
-}
-
-.resume-page {
-  text-align: center;
-}
-

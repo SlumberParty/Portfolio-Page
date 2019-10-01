@@ -11,7 +11,7 @@ const Styles = styled.div`
     padding-bottom: 0px;
     text-align: center;
     color: #efefef;
-    height: 175px;
+    height: 140px;
     position: relative;
     z-index: -2;
   }
@@ -40,7 +40,7 @@ const Jumbotron = () => {
           </div>
           <h2>Full stack software developer</h2>
           <p className="intro">Hello! She/Her. Compulsive maker. Will talk javascript, 
-            LEDs, lasercutting, open source, and feelings all day. 
+            LEDs, lasercutting, open source and feelings all day. 
             Learning python and node red. </p>
           </Container>
       </Jumbo>
