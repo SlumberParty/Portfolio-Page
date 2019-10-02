@@ -39,6 +39,12 @@ const Jumbotron = () => {
             <span className="spotlight"></span>
           </div>
           <h2>Full stack software developer</h2>
+          <div className="stack-images"> 
+            <img className="stack-icon" src="../resources/mongodb.png" alt="mongodb icon"/>
+            <img className="stack-icon" src="../resources/express.png" alt="expressjs icon"/>
+            <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
+            <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
+          </div>
           <p className="intro">Hello! She/Her. Compulsive maker. Will talk javascript, 
             LEDs, lasercutting, open source and feelings all day. 
             Learning python and node red. </p>

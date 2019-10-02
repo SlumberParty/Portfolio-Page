@@ -4,8 +4,21 @@
   padding-right: 15em;
 }
 
-h3 {
-  margin-top: 1.5em;
+h2 {
+  margin: 0px;
+}
+
+.stack-images {
+  margin: 10px;
+}
+
+.stack-icon {
+  margin-left: .8em;
+  margin-right: .8em;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 10px;
+  border: 1px solid rgb(6, 6, 245);
 }
 
 .neon {
@@ -27,7 +40,7 @@ h3 {
   position: absolute;
   border-top: 9px solid black;
   border-bottom: 10px solid black;
-  background: linear-gradient(45deg, gold, rgb(255, 102, 0), purple, rgb(6, 6, 245));
+  background: linear-gradient(gold, rgb(255, 102, 0), purple, rgb(6, 6, 245));
   top: 0;
   left: 0;
   right: 0;
