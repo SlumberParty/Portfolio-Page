@@ -4,6 +4,7 @@ import './Home.css';
 const Home = () => {
   return ( 
     <div className="home">
+      <p>Contact:</p> 
       <div className="icons">
         <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">
            <img className="home-contact-icon" src="../resources/gmail.png" alt="gmail icon"/>
