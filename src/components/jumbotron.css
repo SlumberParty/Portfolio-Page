@@ -21,6 +21,11 @@ h2 {
   border: 1px solid rgb(6, 6, 245);
 }
 
+.jumbo {
+  height: auto !important;
+}
+
+
 .neon {
   overflow: hidden;
   filter: brightness(150%);

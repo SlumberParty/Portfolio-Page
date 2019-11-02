@@ -11,7 +11,7 @@ const Styles = styled.div`
     padding-bottom: 0px;
     text-align: center;
     color: #efefef;
-    height: 140px;
+    height: 8em;
     position: relative;
     z-index: -2;
   }
