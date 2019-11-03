@@ -33,10 +33,13 @@ const Jumbotron = () => {
       <Jumbo fluid className="jumbo">
         <div className="overlay"></div>
         <Container>
-          <div className="neon">
+          <div className="neon bigscreen-only">
             <span className="name">Claire Danielle Cassidy</span>
             <span className="gradient"></span>
             <span className="spotlight"></span>
+          </div>
+          <div className="smallscreen-only">
+            <h1 className="small-name">Claire Danielle Cassidy</h1>
           </div>
           <h2>Full stack software developer</h2>
           <div className="stack-images"> 

@@ -1,7 +1,6 @@
 .intro {
-  text-align: center;
-  padding-left: 15em;
-  padding-right: 15em;
+  max-width: 25em;
+  margin: auto;
 }
 
 h2 {
@@ -21,8 +20,40 @@ h2 {
   border: 1px solid rgb(6, 6, 245);
 }
 
+.small-name {
+  font-size: 55px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    -55deg,
+    rgb(255, 232, 101),
+    gold,
+    rgb(255, 136, 0), 
+    rgb(255, 94, 0),
+    rgb(255, 10, 71), 
+    purple,
+    rgb(98, 6, 245),
+    rgb(6, 6, 245),
+    rgb(6, 6, 245),
+    rgb(6, 6, 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .jumbo {
   height: auto !important;
+}
+
+@media screen and (min-width: 768px) {
+ .smallscreen-only {
+  display: none;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  .bigscreen-only {
+    display: none;
+  }
 }
 
 
