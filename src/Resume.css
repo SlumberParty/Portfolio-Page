@@ -6,4 +6,5 @@
   margin-top: 6em;
   height: 75em;
   width: auto;
+  position: inherit;
 }
