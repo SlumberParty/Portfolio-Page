@@ -48,9 +48,9 @@ const Jumbotron = () => {
             <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
             <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
           </div>
-          <p className="intro">Hello! She/Her. Compulsive maker. Will talk javascript, 
-            LEDs, lasercutting, open source and feelings all day. 
-            Learning python and node red. </p>
+          <p className="intro">She/Her. Compulsive maker. Passionate about inclusive code, 
+            LEDs, lasercutting, open source and mental health. Currently making an IoT system on a Raspberry Pi 4 with Mozilla WebThings, currently learning Vue and Python.</p>
+            <p>ClaCassidy@gmail.com</p>
           </Container>
       </Jumbo>
     </Styles>
