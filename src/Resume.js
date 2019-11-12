@@ -4,7 +4,7 @@ import './Resume.css'
 const Resume = () => {
   return ( 
     <div className="resume-page">
-      <img className="resume" src="../resources/Claires-Current-Resume-Jpg.jpg" alt="resume" />
+      <img className="resume" src="../resources/Claire Cassidy Current Code Resume.png" alt="resume" />
     </div>
    );
 }
