@@ -51,7 +51,6 @@ const Jumbotron = () => {
           <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience 
           as an independent artist, designer, and small business owner. Full stack web developer. My dream job would foster a learning environment, and 
 provide the opportunity to teach to a diverse range of people about technology I believe makes a positive impact.</p>
-            <p>ClaCassidy@gmail.com</p>
           </Container>
       </Jumbo>
     </Styles>
