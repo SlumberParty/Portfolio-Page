@@ -4,8 +4,6 @@ import './Home.css';
 const Home = () => {
   return ( 
     <div className="home">
-      <p>Contact:</p> 
-      
       <div className="project-images">
         <p className="home-sections">A Few Personal Projects:</p>
         <a href="https://www.magictoolbus.com/">
@@ -18,6 +16,7 @@ const Home = () => {
           <img className="project-icon" src="../resources/lightprojector.png" alt="light projector tutorial thumbnail"/>
         </a>
       </div>
+      <p>Contact:</p>
       <div className="icons">
         <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">
            <img className="home-contact-icon" src="../resources/gmail.png" alt="gmail icon"/>
