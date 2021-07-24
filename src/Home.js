@@ -16,6 +16,13 @@ const Home = () => {
           <img className="project-icon" src="../resources/lightprojector.png" alt="light projector tutorial thumbnail"/>
         </a>
       </div>
+      <div className="stack-images"> 
+            <img className="stack-icon" src="../resources/mongodb.png" alt="mongodb icon"/>
+            <img className="stack-icon" src="../resources/express.png" alt="expressjs icon"/>
+            <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
+            <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
+          </div>
+          <p>I am a MERN full stack software developer</p>
       <p>Contact:</p>
       <div className="icons">
         <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">

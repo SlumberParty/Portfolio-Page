@@ -47,13 +47,6 @@ const Jumbotron = () => {
           independent artist, designer, and small business owner. Full stack web developer. My dream job would foster a learning 
           environment, and provide the opportunity to teach to a diverse range of people about technology I believe makes 
           a positive impact.</p>
-          <div className="stack-images"> 
-            <img className="stack-icon" src="../resources/mongodb.png" alt="mongodb icon"/>
-            <img className="stack-icon" src="../resources/express.png" alt="expressjs icon"/>
-            <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
-            <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
-          </div>
-          <p>MERN Fullstack Software Developer</p>
           </Container>
       </Jumbo>
     </Styles>
