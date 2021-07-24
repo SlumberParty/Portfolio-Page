@@ -23,15 +23,15 @@ const Home = () => {
         </a>
       </div>
       <div className="project-images">
-        <p className="home-sections">A Few Code Projects:</p>
-        <a href="https://optimistic-panini-e9191b.netlify.com/auth.html">
-          <img className="project-icon" src="../resources/sauceboss.png" alt="alchemybot thumbnail"/>
+        <p className="home-sections">A Few Personal Projects:</p>
+        <a href="https://www.magictoolbus.com/">
+          <img className="project-icon" src="../resources/toolbus.png" alt="magic tool bus thumbnail"/>
         </a>
         <a href="https://withfeeling.blog/the-alchemy-pdx-community-bot-a-big-ol-backend-nodejs-project-with-emojis-raspberry-pi-and-a-rainbow-adafruit-neotrellis/">
           <img className="project-icon" src="../resources/alchemybot.png" alt="alchemybot thumbnail"/>
         </a>
-        <a href="http://star-bbs.github.io">
-          <img className="project-icon" src="../resources/starnation.png" alt="alchemybot thumbnail"/>
+        <a href="http://www.disruptivelyuseful.org/">
+          <img className="project-icon" src="../resources/lightprojector.png" alt="light projector tutorial thumbnail"/>
         </a>
       </div>
     </div>

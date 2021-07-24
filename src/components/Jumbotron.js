@@ -48,8 +48,21 @@ const Jumbotron = () => {
             <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
             <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
           </div>
-          <p className="intro">She/Her. Compulsive maker. Passionate about inclusive code, 
-            LEDs, lasercutting, open source and mental health. Currently making an IoT system on a Raspberry Pi 4 with Mozilla WebThings, currently learning Vue and Python.</p>
+          <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience 
+          as an independent artist, designer, and small business owner. Full stack web developer.
+
+I have a passion for problem solving and innovation. I work well in diverse, inclusive, emotionally healthy 
+environments. I believe in human-centered open source. My dream job would foster a learning environment, and 
+provide the opportunity to teach to a diverse range of people about technology I believe makes a positive impact. 
+I also love engaging at events be it networking, speaking or exhibiting.
+
+I fully embrace the ever changing, ever growing environment that is learning software, hardware and systems, 
+and I learn quickly. I hope to contribute in ways that shift the industry to be ever more inclusive, empowering 
+and sustainable.
+
+Currently project managing at Crowd Supply in Portland, OR, guiding dozens of creators and their 
+innovative open source hardware concepts through an extremely hands-on pipeline of community building - 
+funding - manufacturing - fulfillment - distribution.</p>
             <p>ClaCassidy@gmail.com</p>
           </Container>
       </Jumbo>
