@@ -9,7 +9,7 @@ const Styles = styled.div`
     background-size: cover;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     text-align: center;
     color: #efefef;
     height: 8em;
@@ -43,15 +43,17 @@ const Jumbotron = () => {
             <h1 className="small-name">Claire Danielle Cassidy</h1>
           </div>
           <h3>Open source hardware wizard ★ Artist ★ Maker of cool stuff Cartoon watcher ★ Experience</h3>
+          <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an 
+          independent artist, designer, and small business owner. Full stack web developer. My dream job would foster a learning 
+          environment, and provide the opportunity to teach to a diverse range of people about technology I believe makes 
+          a positive impact.</p>
           <div className="stack-images"> 
             <img className="stack-icon" src="../resources/mongodb.png" alt="mongodb icon"/>
             <img className="stack-icon" src="../resources/express.png" alt="expressjs icon"/>
             <img className="stack-icon" src="../resources/react.png" alt="react icon"/>
             <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon"/>
           </div>
-          <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience 
-          as an independent artist, designer, and small business owner. Full stack web developer. My dream job would foster a learning environment, and 
-provide the opportunity to teach to a diverse range of people about technology I believe makes a positive impact.</p>
+          <p>MERN Fullstack Software Developer</p>
           </Container>
       </Jumbo>
     </Styles>
