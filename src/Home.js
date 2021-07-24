@@ -28,9 +28,6 @@ const Home = () => {
         <a href="https://www.linkedin.com/in/clairedaniellecassidy/">
           <img className="home-contact-icon" src="../resources/linkedin.png" alt="linkedin icon"/>
         </a>
-        <a href="http://withfeeling.blog/">
-          <img className="home-contact-icon" src="../resources/blog.png" alt="blog icon"/>
-        </a>
         <a href="https://twitter.com/LaserMistress">
           <img className="home-contact-icon" src="../resources/twitter.png" alt="twitter icon"/>
         </a>
