@@ -9,6 +9,7 @@ const Styles = styled.div`
     background-size: cover;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-bottom: 15px;
     text-align: center;
     color: #efefef;
     height: 8em;
