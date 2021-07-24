@@ -5,8 +5,9 @@
 }
 
 h2 {
-  max-width: 50em;
-  margin: 0px;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 0px;
 }
 
 .stack-images {
