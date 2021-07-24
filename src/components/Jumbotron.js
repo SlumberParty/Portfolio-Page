@@ -41,7 +41,7 @@ const Jumbotron = () => {
           <div className="smallscreen-only">
             <h1 className="small-name">Claire Danielle Cassidy</h1>
           </div>
-          <h2>Open source hardware wizard ★ Artist ★ Maker of cool stuff Cartoon watcher ★ Experience</h2>
+          <h3>Open source hardware wizard ★ Artist ★ Maker of cool stuff Cartoon watcher ★ Experience</h3>
           <div className="stack-images"> 
             <img className="stack-icon" src="../resources/mongodb.png" alt="mongodb icon"/>
             <img className="stack-icon" src="../resources/express.png" alt="expressjs icon"/>
