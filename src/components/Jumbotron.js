@@ -42,11 +42,10 @@ const Jumbotron = () => {
           <div className="smallscreen-only">
             <h1 className="small-name">Claire Danielle Cassidy</h1>
           </div>
-          <h3>Open source hardware wizard ★ Artist ★ Maker of cool stuff Cartoon watcher ★ Experience</h3>
+          <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
           <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an 
-          independent artist, designer, and small business owner. Full stack web developer. My dream job would foster a learning 
-          environment, and provide the opportunity to teach to a diverse range of people about technology I believe makes 
-          a positive impact.</p>
+          independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by 
+        open source philosophy and technology that is indistinguishable from magic.</p>
           </Container>
       </Jumbo>
     </Styles>
