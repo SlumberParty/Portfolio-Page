@@ -11,18 +11,16 @@ import Jumbotron from './components/Jumbotron';
 class App extends Component {
   render() {
     return (
-      <>
-        <BrowserRouter>
-          <Jumbotron />
-          <NavBar />
-          <Routes>
-            <Route exact path="/" component={Home} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/contact" component={Contact} />
-            <Route component={NoMatch} />
-          </Routes>
-        </BrowserRouter>
-      </>
+      <BrowserRouter>
+        <NavBar />
+        <Jumbotron />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route element={<NoMatch />} />
+        </Routes>
+      </BrowserRouter>
     );
   }
 }
