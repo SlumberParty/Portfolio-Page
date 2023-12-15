@@ -29,28 +29,26 @@ const Styles = styled.div`
 `;
 
 const Jumbotron = () => {
-  return ( 
+  return (
     <Styles>
-      <Jumbo fluid className="jumbo">
-        <div className="overlay"></div>
-        <Container>
-          <div className="neon bigscreen-only">
-            <span className="name">Claire Danielle Cassidy</span>
-            <span className="gradient"></span>
-            <span className="spotlight"></span>
-          </div>
-          <div className="smallscreen-only">
-            <h1 className="small-name">Claire Danielle Cassidy</h1>
-          </div>
-          <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
-          <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an 
-          independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by 
-        open source philosophy and technology that is indistinguishable from magic.</p>
-          </Container>
-      </Jumbo>
+      <div className="overlay"></div>
+      <Container>
+        <div className="neon bigscreen-only">
+          <span className="name">Claire Danielle Cassidy</span>
+          <span className="gradient"></span>
+          <span className="spotlight"></span>
+        </div>
+        <div className="smallscreen-only">
+          <h1 className="small-name">Claire Danielle Cassidy</h1>
+        </div>
+        <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
+        <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an
+          independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by
+          open source philosophy and technology that is indistinguishable from magic.</p>
+      </Container>
     </Styles>
 
-);
+  );
 }
-   
-  export default Jumbotron;
+
+export default Jumbotron;
