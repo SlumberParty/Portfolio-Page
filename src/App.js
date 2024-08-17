@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <NavBar />
-        <Jumbotron />
+        <Jumbotron /> 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/resume' element={<Resume />} />
