@@ -170,9 +170,9 @@ body:has(#option-toggle:checked) {
 /* === Pen styling, ignore */
 
 h1 {
-  --font-size: clamp(6.25rem, 3.25rem + 15vw, 13.75rem);
+  --font-size: clamp(3rem, 3.25rem + 15vw, 8rem);
 
-  font: 700 var(--font-size)/1 "Lato", sans-serif;
+  font: 600 var(--font-size)/1 "Lato", sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
@@ -183,7 +183,7 @@ h1 {
     min-width: 1ch;
     outline-offset: 5px;
   }
-}
+} 
 
 body {
   background: black;

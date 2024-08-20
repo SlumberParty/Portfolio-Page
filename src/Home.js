@@ -5,10 +5,9 @@ const Home = () => {
   return (
     <div>
       <div class="text-effect-wrapper">
-        <h1 class="text" >Neon</h1>
+        <h1 class="text" >Claire Danielle Cassidy</h1>
       </div>
       <div className="home">
-        <h2>Claire Danielle Cassidy</h2>
         <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
         <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an
           independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by
