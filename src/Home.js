@@ -4,7 +4,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home">
-          <div>Claire Danielle Cassidy</div>
+          <h2>Claire Danielle Cassidy</h2>
         <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
         <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an
           independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by
