@@ -4,6 +4,11 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home">
+          <div>Claire Danielle Cassidy</div>
+        <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
+        <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an
+          independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by
+          open source philosophy and technology that is indistinguishable from magic.</p>
       <div className="project-images">
         <p className="home-sections">A Few Personal Projects:</p>
         <a href="https://thereuglow.club/">
@@ -38,7 +43,7 @@ const Home = () => {
           <img className="home-contact-icon" src="../resources/twitter.png" alt="twitter icon" />
         </a>
       </div>
-    </div>
+    </div >
   );
 }
 

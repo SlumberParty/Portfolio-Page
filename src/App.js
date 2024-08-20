@@ -5,15 +5,12 @@ import Resume from './Resume';
 import Contact from './Contact';
 import NoMatch from './NoMatch';
 import NavBar from './components/NavBar';
-import Jumbotron from './components/Jumbotron';
-
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <NavBar />
-        <Jumbotron />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/resume' element={<Resume />} />
