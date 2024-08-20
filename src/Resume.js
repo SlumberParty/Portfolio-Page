@@ -1,12 +1,9 @@
 import React from 'react';
-import './Resume.css'
+
+import resume from '../src/resources/Claire Cassidy Resume Spring 2024.png'
 
 const Resume = () => {
-  return ( 
-    <div className="resume-page">
-      <img className="resume" src="../resources/Claire Cassidy Core Resume Fall 2023.pdf" alt="resume" />
-    </div>
-   );
+   return <img src={resume} alt="resume" />;
 }
- 
+
 export default Resume;

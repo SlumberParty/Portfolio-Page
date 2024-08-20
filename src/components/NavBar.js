@@ -7,6 +7,7 @@ const Styles = styled.div`
   .navbar {
     background-color: #000;
     padding-bottom: 0px;
+    fixed: top;
   }
 
   a, .navbar-brand, .navbar-nav .nav-link {
@@ -20,29 +21,34 @@ const Styles = styled.div`
 `;
 
 const NavBar = () => {
-  return ( 
+  return (
     <Styles>
-    <Navbar expand="lg" variant="dark">
-      <Navbar.Brand href="/"></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav as="span" className="ml-auto">
-          <Nav.Item>
-            <Nav.Link as="span">
-              <Link to="/">Home</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link as="span">
-              <Link to="/resume">Resume</Link>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  </Styles >
+      <Navbar fixed="top" expand="lg" variant="dark">
+        <Navbar.Brand href="/"></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav as="span" className="ml-auto">
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/">Home</Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/resume">Resume</Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/portfolio">Portfolio</Link>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Styles >
 
-   );
+  );
 }
- 
+
 export default NavBar;
