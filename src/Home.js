@@ -37,8 +37,11 @@ const Home = () => {
         <p>I am also a practicing, aspiring software developer and creative code enthusiast</p>
         <p>Contact:</p>
         <div className="icons">
-          <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">
-            <img className="home-contact-icon" src="../resources/gmail.png" alt="gmail icon" />
+          <a href="https://mstdn.social/@LaserMistress">
+            <img className="home-contact-icon" src="../resources/mastodon-icon.png" alt="mastodon icon" />
+          </a>
+          <a href="https://www.patreon.com/clairedaniellecassidy">
+            <img className="home-contact-icon" src="../resources/patreon-icon.png" alt="patreon icon" />
           </a>
           <a href="https://github.com/SlumberParty">
             <img className="home-contact-icon" src="../resources/github.png" alt="github icon" />
@@ -46,8 +49,8 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/clairedaniellecassidy/">
             <img className="home-contact-icon" src="../resources/linkedin.png" alt="linkedin icon" />
           </a>
-          <a href="https://mstdn.social/@LaserMistress">
-            <img className="home-contact-icon" src="../resources/mastodon-icon.png" alt="mastodon icon" />
+          <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">
+            <img className="home-contact-icon" src="../resources/gmail.png" alt="gmail icon" />
           </a>
         </div>
       </div >
