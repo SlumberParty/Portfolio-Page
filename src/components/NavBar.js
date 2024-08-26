@@ -6,8 +6,8 @@ import styled from 'styled-components';
 const Styles = styled.div`
   .navbar {
     background-color: #000;
-    padding-bottom: 0px;
     fixed: top;
+    margin-bottom: 10px;
   }
 
   a, .navbar-brand, .navbar-nav .nav-link {
@@ -40,7 +40,7 @@ const NavBar = () => {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as="span">
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/portfolio">LED Guide</Link>
               </Nav.Link>
             </Nav.Item>
           </Nav>

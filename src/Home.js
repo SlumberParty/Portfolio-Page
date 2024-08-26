@@ -8,10 +8,15 @@ const Home = () => {
         <h1 class="text" >Claire Danielle Cassidy</h1>
       </div>
       <div className="home">
-        <h3>Open Source Hardware ★ Project Manager ★ LEDs, Lasercutting, Electronics & Solar ★ Creator ★ Organizer ★ Experience</h3>
-        <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years experience as an
-          independent artist, designer, and small business owner. Apiring python developer and embedded engineer. Fascinated by
-          open source philosophy and technology that is indistinguishable from magic.</p>
+        <h3>Project Manager ★ LEDs, Lasercutting, Electronics &
+          Solar Specialist ★ Open Source Enthusiast and Advocate (Hardware and
+          Software flavored) ★ Creator ★ Mutual Aid Maker ★ Tech Gatekeeping Disruptor ★ Organizer</h3>
+        <p className="intro">She/Her. Open source electronic hardware project manager with 10+ years
+          experience as an independent artist, product designer, and small business owner.
+          Creator of multiple open source educational resources with a goal of tearing down
+          gatekeeping in technical environments, particularly for femmes and queers in my local community.
+          Apiring python developer and embedded engineer. Invested in open source philosophy and culture.
+          Fascinated by technology that is indistinguishable from magic.</p>
         <div className="project-images">
           <p className="home-sections">A Few Personal Projects:</p>
           <a href="https://thereuglow.club/">
@@ -26,11 +31,10 @@ const Home = () => {
         </div>
         <div className="stack-images">
           <img className="stack-icon" src="../resources/pythonicon.png" alt="python icon" />
-          <img className="stack-icon" src="../resources/express.png" alt="expressjs icon" />
           <img className="stack-icon" src="../resources/react.png" alt="react icon" />
-          <img className="stack-icon" src="../resources/nodejs.jpg" alt="nodejs icon" />
+          <img className="stack-icon" src="../resources/p5-icon.png" alt="p5 icon" />
         </div>
-        <p>I am also a practicing, aspiring software developer!</p>
+        <p>I am also a practicing, aspiring software developer and creative code enthusiast</p>
         <p>Contact:</p>
         <div className="icons">
           <a href="mailto:clacassidy@gmail.com?Subject=Hello%20Claire!%20We%20would%20love%20to%20hire%20you!" target="_top">

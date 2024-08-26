@@ -25,8 +25,6 @@
   margin-bottom: 1.5em;
   border-radius: 10px;
   border: 1px solid purple;
-  margin-left: 8em;
-  margin-right: 8em;
 }
 
 h3 {
@@ -62,10 +60,12 @@ https://codepen.io/giana/pen/MWxONWm
 /* Create pseudo elements for both elements */
 .text-effect-wrapper,
 .text {
+
   &::before,
   &::after {
     content: "";
     position: absolute;
+    top: 100px;
     inset: 0;
     pointer-events: none;
   }
@@ -77,11 +77,13 @@ https://codepen.io/giana/pen/MWxONWm
 
   overflow: hidden;
   position: relative;
+  /* added by Claire post-copy to avoid nav bar and not leave shiny trace */
+  margin-top: 60px;
 
   /* Shimmer animation */
   &::before {
-    animation: shimmer 5s infinite linear;
-    background: 
+    animation: shimmer 15s infinite linear;
+    background:
       radial-gradient(circle, var(--spotlight-color), transparent 25%) 0 0 / 25% 25%,
       radial-gradient(circle, var(--spotlight-color), black 25%) 50% 50% / 12.5% 12.5%;
     inset-block-start: -100%;
@@ -116,10 +118,10 @@ https://codepen.io/giana/pen/MWxONWm
 
   /* Fuzzy white outline text */
   color: transparent;
-  text-shadow: 
-    0 0 0.02em var(--background-color), 
+  text-shadow:
+    0 0 0.02em var(--background-color),
     0 0 0.02em var(--text-color),
-    0 0 0.02em var(--text-color), 
+    0 0 0.02em var(--text-color),
     0 0 0.02em var(--text-color);
 
   /* Improve contrast of outline */
@@ -140,7 +142,7 @@ https://codepen.io/giana/pen/MWxONWm
 body:has(#option-toggle:checked) {
   & .text-effect-wrapper {
     --spotlight-color: orange;
-    
+
     &::after {
       backdrop-filter: brightness(90%) contrast(150%);
     }
@@ -152,10 +154,10 @@ body:has(#option-toggle:checked) {
     --color-2: hsl(295, 88%, 32%);
     --color-3: hsl(59, 100%, 50%);
 
-    text-shadow: 
+    text-shadow:
       0 0 0.03em var(--background-color),
       0 0 0.03em var(--text-color);
-    
+
     &::before {
       backdrop-filter: brightness(150%) contrast(200%);
     }
@@ -164,26 +166,25 @@ body:has(#option-toggle:checked) {
       background: linear-gradient(var(--angle), var(--color-1), var(--color-2), var(--color-3));
       mix-blend-mode: color-dodge;
     }
-  } 
+  }
 }
 
 /* === Pen styling, ignore */
 
 h1 {
-  --font-size: clamp(3rem, 3.25rem + 15vw, 6rem);
+  --font-size: clamp(3rem, 3.25rem + 15vw, 5rem);
 
   font: 600 var(--font-size)/1 "Lato", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
 
   &:empty,
   &:focus {
     border: 2px dotted white;
     min-width: 1ch;
-    outline-offset: 5px;
+    outline-offset: 7px;
   }
-} 
+}
 
 body {
   background: black;
@@ -199,12 +200,12 @@ label {
   border-radius: 5px;
   color: #fff;
   padding: 0.5em 1em;
-  
+
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   z-index: 1000;
-  
+
   &:has(:checked) {
     background-color: hsl(350deg, 60%, 50%);
   }
