@@ -46,8 +46,8 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/clairedaniellecassidy/">
             <img className="home-contact-icon" src="../resources/linkedin.png" alt="linkedin icon" />
           </a>
-          <a href="https://twitter.com/LaserMistress">
-            <img className="home-contact-icon" src="../resources/twitter.png" alt="twitter icon" />
+          <a href="https://mstdn.social/@LaserMistress">
+            <img className="home-contact-icon" src="../resources/mastodon-icon.png" alt="mastodon icon" />
           </a>
         </div>
       </div >
