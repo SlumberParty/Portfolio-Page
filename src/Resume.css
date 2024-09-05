@@ -1,6 +1,5 @@
 .resume-page {
-  width: fit-content;
+  max-width: 100%;
   height: auto;
-  text-align: center;
   padding-top: 60px;
 }
