@@ -5,7 +5,10 @@ import resume from '../src/resources/Claire Cassidy Resume Fall 2024.png'
 
 const Resume = () => {
     return <div class="resume-page">
-        <img src={resume} alt="resume" height={800} width={600} />;
+        {/* <a href="https://drive.google.com/file/d/18kQ1e_GKnSzObzFR2yLho2fEfg2fFSAc/view?usp=drive_link">
+            <p>Click here to view my resume with clickable links!</p>
+          </a> */}
+        <img src={resume} alt="claire cassidy's fall 2024 resume"/>;
     </div>
 }
 
