@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resume.css';
 
-import resume from '../src/resources/Claire Cassidy Resume Spring 2024.png'
+import resume from '../src/resources/Claire Cassidy Resume Fall 2024.png'
 
 const Resume = () => {
     return <div class="resume-page">
