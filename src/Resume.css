@@ -4,19 +4,3 @@
   text-align: center;
   padding-top: 60px;
 }
-
-.object {
-  max-width: 75%;
-  height: auto;
-}
-
-.resume {
-  max-width: 75%;
-  height: auto;
-}
-
-.pdf {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-}
-
