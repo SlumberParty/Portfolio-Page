@@ -1,5 +1,32 @@
 .resume-page {
-  max-width: 100%;
-  height: auto;
+  display: block;
+  max-width: 60em;
+  max-height: 90em;
+  width: 100%;
+  height: 100%;
   padding-top: 60px;
+}
+
+a.resume-link:link,
+a.resume-link:visited {
+  background-color: black;
+  color: #8c52ff;
+  border: 2px solid #cfb9fd;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.resume-link:hover,
+a.resume-link:active {
+  background-color: #cfb9fd;
+  color: white;
+}
+
+.resume-link-container {
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 60px;
 }
